@@ -6,9 +6,9 @@ def bide(bistr):
         return decimal_number
     else:
         
-        return print("Invalid binary number. Please ensure the input contains only 0 and 1.")
+        return print("Invalid binary number.")
 
 
 bininput = input("Enter a binary number: ")
 decioutput = bide(bininput)
-print("The decimal of the binary {bininput} is {decioutput}.")
+print("The decimal of the binary ",bininput ,"is" ,decioutput)
